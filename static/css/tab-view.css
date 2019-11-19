@@ -6,7 +6,6 @@
    left: auto;
    right: 0;
    border-top: 2px solid #2F64A3;
-   background-color:#F5F5F5;
    width: 340px;
    padding:20px;
    border-radius: 0px 0px 6px 6px !important;
@@ -17,12 +16,10 @@
    margin-right: 200px;
 }
 .soca .open>a, .soca .open>a:focus, .soca .open>a:hover {
-   background-color: #F5F5F5;
    border-color: #F5F5F5;
 }
 .nav.soca > li > a:focus, .nav.soca > li > a:hover {
    text-decoration: none;
-   background-color: #F5F5F5;
 }
 .b-or{
    color:#000000;
@@ -193,74 +190,4 @@
    margin-left:15px;
    color:#0B5F8A;
    font-weight:bold;
-}
-.counter p,.navbar-user ul li,.search-form .btn,.tab-btn{
-   font-family:Montserrat,sans-serif
-}
-.login-form .btn-login:focus,.login-form .btn-login:hover,.navbar-user>.btn-login:focus,.navbar-user>.btn-login:hover{
-   background-color:#39873D;
-   border:1px solid #39873D;
-   color:#fff
-}
-.navbar-default .navbar-toggle{
-   border:1px solid #e0e0e0;
-   padding:7px 10px
-}
-.user-details img{
-   height:30px;
-   width:30px;
-   margin:0 5px 0 0;
-   border-radius:25px;
-   border:2px solid #bdbdbd
-}
-.navbar-default .navbar-nav>li>a.btn-login{
-   color:#fff;
-   border:none;
-   margin-left:25px
-}
-.navbar-default .navbar-nav>li>a.login:focus,.navbar-default .navbar-nav>li>a.login:hover,.navbar-user .btn-login:hover,.promoArea .btn:hover,.search-form .btn:focus,.search-form .btn:hover{
-   background-color:#39873d;
-   color:#fff
-}
-.navbar-default .navbar-toggle:focus .icon-bar,.navbar-default .navbar-toggle:hover .icon-bar{
-   background-color:#fff
-}
-.navbar-default .navbar-toggle:focus{
-   background-color:#fff;
-   border-color:#ddd
-}
-.navbar-default .navbar-toggle:focus .icon-bar{
-   background-color:#2f64a3
-}
-.navbar-default .navbar-default .navbar-toggle{
-   border-color:#2f64a3
-}
-.navbar-user ul{
-   margin:0;
-   padding:0
-}
-.navbar-user ul li{
-   list-style:none;
-   display:inline-block;
-   font-size:13px
-}
-.navbar-user ul li.offset-mobile a:hover{
-   color:#2F64A3
-}
-.navbar-user ul li.offset-mobile a{
-   padding:0 8px
-}
-a.for-employers span{
-   background-color:#0b5f8a;
-   color:#fff;
-   border-radius:25px;
-   height:25px;
-   width:25px;
-   display:inline-block;
-   text-align:center;
-   padding-top:6px;
-   margin-right:9px
-}
-.navbar-user .btn.for-employers{
-   color:#0b5f8a
 }
