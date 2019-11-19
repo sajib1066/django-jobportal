@@ -29,9 +29,8 @@
                                 <div class="des-txt">Sign in or create your My Jobpply account to manage your profile</div>
 
                                 <div class="btn-wraper">
-                                    <a href="" class="btn slu-btn">Sign In</a>
-                                    <!--<a href="//mybdjobs.bdjobs.com/mybdjobs/signin.asp" onclick="_gaq.push(['_trackEvent', 'nabarmenu_new' , 'click', 'Mybdjobs Sign In',1.00,true]);" class="btn slu-btn" target="_blank">Sign in</a>-->
-                                    <a href="" class="ca-btn slu-btn" target="_blank">Create Account</a>
+                                    <a href="{% url 'candidate-login' %}" class="btn slu-btn">Sign In</a>
+                                    <a href="{% url 'candidate-register' %}" class="ca-btn slu-btn" target="_blank">Create Account</a>
                                 </div>
                             </div>
                         </div>
