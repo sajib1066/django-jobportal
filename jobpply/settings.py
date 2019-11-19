@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'about',
     'candidates',
     'blog',
-    'contact'
+    'contact',
+    'job_section'
 ]
 
 MIDDLEWARE = [
