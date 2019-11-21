@@ -1,8 +1,22 @@
+function countChecked() {
+    if ($('input[name="nom"]:checked').length > 0 && $("#activeBtn").is(':disabled')) {
+        $("#activeBtn").removeAttr('disabled');
+        document.getElementById('activeBtn').style.backgroundColor = '#57b846';
+    } else if ($('input[name="nom"]:checked').length == 0) {
+       $("#activeBtn").attr('disabled', true);
+       document.getElementById('activeBtn').style.backgroundColor = '#D3D3D3';
+    }
+};
+$('input[name="nom"]').on("change", function(event) {
+    countChecked();
+});
+
+
 
 (function ($) {
     "use strict";
 
-    
+
     /*==================================================================
     [ Validate ]*/
     var input = $('.validate-input .input100');
@@ -51,7 +65,7 @@
 
         $(thisAlert).removeClass('alert-validate');
     }
-    
-    
+
+
 
 })(jQuery);
